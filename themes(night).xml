@@ -1,1 +1,17 @@
+// themes(night).xml
+---------------------------------
+kod = Theme.AppCompat.DayNight.DarkActionBar
+
+
+
+kod içinde // res/values/themes Dosyasına Yapılacak
+-------------------------------------------------------------------
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KodDeneme" parent="Theme.AppCompat.DayNight.DarkActionBar"> // Kodu Parent İçine yazın
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+</resources>
+
 
