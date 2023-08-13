@@ -1,0 +1,21 @@
+// themes.xml
+---------------------------------
+kod = Theme.AppCompat.Light.DarkActionBar
+
+
+
+kod içinde // res/values/themes Dosyasına Yapılacak
+-------------------------------------------------------------------
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KodDeneme" parent="Theme.AppCompat.Light.DarkActionBar"> // Kodu parent Kısmına Yaz
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.KodDeneme" parent="Base.Theme.KodDeneme" />
+</resources>
+
+
+
+  
